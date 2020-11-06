@@ -1,0 +1,79 @@
+
+.todoForm{
+  background-color:rgb(225, 190, 219);
+  min-height:500px;
+  border-color: blue;
+  width: 400px;
+  margin: 40px auto;    
+}
+.list{
+  color: black;
+  width:350px;
+  margin: 20px auto;
+  height: 40px;
+  background-color:rgb(175, 164, 164);
+}
+.list p {
+    padding: 8px;
+    position: relative;
+}
+.list p span {
+    position: absolute;
+    right: 5px;
+}
+.listText{
+    color: black;
+    width:95%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .delete{  
+    background-color:rgb(192, 109, 88); 
+    width:65px;
+    height:25px;
+    border-color: black ;
+    font-size: 20px;
+    border-width: 1px;
+  }
+  .edit{
+    background-color: rgb(176, 192, 88);
+    width:65px;
+    height:25px;
+    border-color: black ;
+    font-size: 20px;
+    border-width: 1px;
+  }
+  .todoForm input{
+    align-content: center;
+    background-color: powderblue;
+    width:250px;
+    height:35px;
+    margin:20px;
+    border-color: black;
+    font-size: 20px;
+  }
+    .todoForm input::placeholder{
+    color:black;
+    text-align: center;
+  }
+  .todoForm input:focus{
+    outline: none;
+  }
+ .button {
+    background-color: rgb(164, 206, 164);
+    width:75px;
+    height:40px;
+    border-color: black ;
+    font-size: 20px;
+}
+  .todoform button:focus{
+    outline: none;
+  }
+  .todoForm h1{
+    color: black;
+    text-align: center;
+    background-color: rgb(175, 164, 164);
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+  }
