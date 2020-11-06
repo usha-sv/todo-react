@@ -96,7 +96,7 @@ class ToDo extends Component{
     return(
       <div class="todoForm">
         <h1>To-Do App</h1><br/>
-        <input type="text" placeholder="Enter your todos" 
+        <input type="text" placeholder="Enter your remainders" 
         value={this.state.text} 
         onChange={this.handleInput} 
         />
